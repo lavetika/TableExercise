@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;        
+}
+
+#nombre{
+    font-weight: lighter;
+}
+
+table, tr, th, td{
+    margin: auto;
+    border-collapse: collapse;
+    border: 1px solid cadetblue;
+}
+
+tr:nth-child(even){
+    background-color: lavender;
+}
+
+th{
+    color: white;
+    background-color: darkcyan;
+}
+
+#subheaders{
+    font-style: italic;
+}
+
+td:hover{
+    background-color: thistle;
+}
